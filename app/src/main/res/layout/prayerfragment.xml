@@ -1,0 +1,293 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/root_view">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:id="@+id/editText1"
+        android:background="#008000"
+        android:layout_height="225dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Ishaa 9:15 PM"
+            android:id="@+id/textView5"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="12dp"
+            android:textColor="#FFFFFF"
+            android:textSize="28dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:id="@+id/editText2"
+        android:background="@drawable/radius_rectangle"
+        android:layout_height="345dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="150dp">
+        <requestFocus></requestFocus>
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="40dp"
+            android:src="@drawable/calender"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="50dp"
+            android:id="@+id/imageView" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:layout_marginTop="55dp"
+            android:weightSum="1">
+            <TextView
+                android:layout_width="83dp"
+                android:layout_height="match_parent"
+                android:text="Fajar"
+                android:gravity="fill_vertical"
+                android:textSize="18dp"
+                android:layout_marginLeft="50dp"
+                android:layout_weight="0.11" />
+            <TextView
+                android:layout_width="117dp"
+                android:layout_height="match_parent"
+                android:text="00:00:00"
+                android:gravity="fill_vertical"
+                android:textSize="18dp"
+                android:layout_marginLeft="45dp"
+                android:id="@+id/fajar" />
+            <ToggleButton
+            android:id="@+id/patientUtilityButton"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/check"
+
+            android:textOn=""
+            android:textOff=""
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:layout_marginTop="100dp"
+            android:weightSum="1">
+            <TextView
+                android:layout_width="83dp"
+                android:layout_height="match_parent"
+                android:text="Sun Rise"
+                android:gravity="fill_vertical"
+                android:textSize="18dp"
+                android:layout_marginLeft="50dp"
+                android:layout_weight="0.11" />
+            <TextView
+                android:layout_width="117dp"
+                android:layout_height="match_parent"
+                android:text="00:00:00"
+                android:gravity="fill_vertical"
+                android:textSize="18dp"
+                android:layout_marginLeft="45dp"
+                android:id="@+id/Shurooq" />
+            <ToggleButton
+                android:id="@+id/sunrise"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/check"
+
+                android:textOn=""
+                android:textOff=""
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center_vertical" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:layout_marginTop="145dp"
+            android:weightSum="1">
+            <TextView
+                android:layout_width="83dp"
+                android:layout_height="match_parent"
+                android:text="Zuhr"
+                android:gravity="fill_vertical"
+                android:textSize="18dp"
+                android:layout_marginLeft="50dp"
+                android:layout_weight="0.11" />
+            <TextView
+                android:layout_width="117dp"
+                android:layout_height="match_parent"
+                android:text="00:00:00"
+                android:gravity="fill_vertical"
+                android:textSize="18dp"
+                android:layout_marginLeft="45dp"
+                android:id="@+id/zohar" />
+            <ToggleButton
+                android:id="@+id/zuhr"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/check"
+
+                android:textOn=""
+                android:textOff=""
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center_vertical" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:layout_marginTop="190dp"
+            android:weightSum="1">
+            <TextView
+                android:layout_width="83dp"
+                android:layout_height="match_parent"
+                android:text="Asr"
+                android:gravity="fill_vertical"
+                android:textSize="18dp"
+                android:layout_marginLeft="50dp"
+                android:layout_weight="0.11" />
+            <TextView
+                android:layout_width="117dp"
+                android:layout_height="match_parent"
+                android:text="00:00:00"
+                android:gravity="fill_vertical"
+                android:textSize="18dp"
+                android:layout_marginLeft="45dp"
+                android:id="@+id/asar" />
+            <ToggleButton
+                android:id="@+id/asr"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/check"
+
+                android:textOn=""
+                android:textOff=""
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center_vertical" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:layout_marginTop="235dp"
+            android:weightSum="1">
+            <TextView
+                android:layout_width="83dp"
+                android:layout_height="match_parent"
+                android:text="Maghrib"
+                android:gravity="fill_vertical"
+                android:textSize="18dp"
+                android:layout_marginLeft="50dp"
+                android:layout_weight="0.11" />
+            <TextView
+                android:layout_width="117dp"
+                android:layout_height="match_parent"
+                android:text="00:00:00"
+                android:gravity="fill_vertical"
+                android:textSize="18dp"
+                android:layout_marginLeft="45dp"
+                android:id="@+id/magrib" />
+            <ToggleButton
+                android:id="@+id/mgrib"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/check"
+
+                android:textOn=""
+                android:textOff=""
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center_vertical" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:layout_marginTop="280dp"
+            android:weightSum="1">
+            <TextView
+                android:layout_width="83dp"
+                android:layout_height="match_parent"
+                android:text="Isha"
+                android:gravity="fill_vertical"
+                android:textSize="18dp"
+                android:layout_marginLeft="50dp"
+                android:layout_weight="0.11" />
+            <TextView
+                android:layout_width="117dp"
+                android:layout_height="match_parent"
+                android:text="00:00:00"
+                android:gravity="fill_vertical"
+                android:textSize="18dp"
+                android:layout_marginLeft="45dp"
+                android:id="@+id/isha" />
+            <ToggleButton
+                android:id="@+id/isha_toggle"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/check"
+
+                android:textOn=""
+                android:textOff=""
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center_vertical" />
+        </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="20dp"
+    android:layout_marginTop="13dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Today"
+            android:id="@+id/textView3"
+            android:layout_alignTop="@+id/imageView"
+            android:layout_toEndOf="@+id/imageView"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="100dp"
+            android:textSize="16dp" />
+
+</LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginTop="33dp">
+            <TextView
+                android:layout_width="66dp"
+                android:layout_height="match_parent"
+                android:text="00:00:00"
+                android:layout_marginLeft="100dp"
+                android:gravity="center_vertical"
+                android:id="@+id/time_current" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="02 Apr 2017"
+                android:id="@+id/date"
+                android:layout_alignTop="@+id/imageView"
+                android:layout_toEndOf="@+id/imageView"
+                android:layout_marginLeft="0dp"
+                android:textSize="12dp"
+                android:gravity="center_vertical" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</FrameLayout>

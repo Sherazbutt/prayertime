@@ -1,0 +1,39 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/root_view">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:id="@+id/editText1"
+        android:background="#008000"
+        android:layout_height="225dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="بِسْمِ اللَّهِ وَعَلَى بَرَكَةِ اللَّهِ"
+            android:id="@+id/textView5"
+            android:textDirection="anyRtl"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="12dp"
+            android:textColor="#FFFFFF"
+            android:textSize="28dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:id="@+id/editText2"
+        android:background="@drawable/radius_rectangle"
+        android:layout_height="300dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="150dp">
+        <requestFocus></requestFocus>
+    </RelativeLayout>
+
+</FrameLayout>

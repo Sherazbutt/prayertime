@@ -1,0 +1,126 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/root_view">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:id="@+id/editText1"
+        android:background="#008000"
+        android:layout_height="225dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text=""
+            android:id="@+id/dua_name"
+            android:textDirection="anyRtl"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="12dp"
+            android:textColor="#FFFFFF"
+            android:textSize="28dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:id="@+id/editText2"
+        android:background="@drawable/radius_rectangle"
+        android:layout_height="345dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="150dp">
+        <requestFocus></requestFocus>
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="70dp"
+    android:layout_marginTop="70dp"
+    android:id="@+id/linearLayout"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:gravity="center_vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Arabic Textِ"
+            android:id="@+id/arabic_dua"
+            android:textDirection="anyRtl"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:textColor="#008000"
+            android:textSize="19dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:inputType="textMultiLine" />
+       />
+</LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="85dp"
+            android:layout_below="@+id/linearLayout"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="0dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_vertical"
+            android:id="@+id/linearLayout2">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="English"
+                android:id="@+id/eng_2"
+                android:textDirection="anyRtl"
+                android:textColor="#008000"
+                android:textSize="17dp"
+                android:gravity="center_vertical|center_horizontal"
+                android:inputType="textMultiLine">
+
+            </TextView>
+        </LinearLayout>
+
+        <ToggleButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:textOn=""
+            android:textOff=""
+            android:focusable="false"
+            android:background="@drawable/check"
+            android:text="New ToggleButton"
+            android:id="@+id/dua_toggle"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_below="@+id/linearLayout2"
+            android:layout_alignStart="@+id/linearLayout2">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="the blessings of Allah I begin (eating)"
+                android:id="@+id/urdu_1"
+                android:textDirection="anyRtl"
+                android:textColor="#008000"
+                android:textSize="17dp"
+                android:gravity="center_vertical|center_horizontal"
+                android:inputType="textMultiLine"
+                android:layout_marginTop="20dp">
+
+            </TextView>
+        </LinearLayout>
+    </RelativeLayout>
+
+</FrameLayout>
